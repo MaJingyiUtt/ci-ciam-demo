@@ -266,7 +266,7 @@ router.get('/home', function(req, res, next) {
     }
 
     console.log("User is logged in:", loggedIn);
-    console.log("Home quote started for:", req.session.userEmail);
+    console.log("Home quote started for:", req.session.userName);
     res.render('insurance/open-account-home', {
        action: '/open-account/home',
        zip: zip,

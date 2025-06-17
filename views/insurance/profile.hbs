@@ -15,7 +15,7 @@
 					<div class="editable-box">
 						<div class="content-head">
 							<h2>Personal info</h2>
-							<a class="edit-icon" href="#"><img src="/images/payeee-edit.svg" alt="edit"></a>
+							<a class="edit-icon" href="/app/modify-account"><img src="/images/payeee-edit.svg" alt="edit"></a>
 						</div>
 						<div class="content-info">
 							<ul class="contact-details">
@@ -134,7 +134,8 @@
 									<input type="checkbox" id="consentPaperless" name="consentPaperless" value="true"
 										{{#if consentPaperless}} checked {{/if}}>
 									<label for="consentPaperless">Paperless billing</label>
-									<input type="hidden" name="consentMarketingAccessTypeID" value="{{consentMarketingAccessTypeID}}">
+									<input type="hidden" name="consentMarketingAccessTypeID"
+										value="{{consentMarketingAccessTypeID}}">
 
 								</span>
 								<span style="display:inline-block;margin-top:1rem;width:100%">
@@ -142,7 +143,8 @@
 										{{#if consentMarketing}} checked {{/if}}>
 									<label for="consentMarketing">I would like to receive communications relating to
 										promotions</label><br>
-									<input type="hidden" name="consentPaperlessAccessTypeID" value="{{consentPaperlessAccessTypeID}}">
+									<input type="hidden" name="consentPaperlessAccessTypeID"
+										value="{{consentPaperlessAccessTypeID}}">
 								</span>
 								<input type="submit" value="Save Settings" style="margin-top:2rem">
 							</form>
@@ -154,7 +156,8 @@
 					<div class="editable-box">
 						<div class="content-head">
 							<h2>Privacy & consent history</h2>
-							<a class="edit-icon" href="./consent"><img style="width:15px" src="/images/security-session.svg" alt="view"></a>
+							<a class="edit-icon" href="./consent"><img style="width:15px"
+									src="/images/security-session.svg" alt="view"></a>
 						</div>
 					</div>
 					<div class="editable-box">

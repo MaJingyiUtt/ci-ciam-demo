@@ -18,15 +18,14 @@
 				</div>
 
 				<div class="account-content">
-					<h1>Congratulations <br> Your quote is ready and account is setup!</h1>
+					<h1>Congratulations <br> Your home details has been modified!</h1>
 
 					<p style="margin-bottom:2rem;display:inline-block;">{{message}}</p>
-					<br/>
 					{{#if loggedIn}}
-					<a href="{{profileLink}}" class="cta-btn" style="max-width:500px">Access your account to accept your quote</a>
+					<a href="{{profileLink}}" class="cta-btn" style="max-width:500px">Go back to your account</a>
 					{{/if}}
 					{{#unless loggedIn}}
-					<a href="/login" class="cta-btn" style="max-width:500px">Access your account to accept your quote</a>
+					<a href="/login" class="cta-btn" style="max-width:500px">Go back to your account</a>
 					{{/unless}}
 				</div>
 			</div>
